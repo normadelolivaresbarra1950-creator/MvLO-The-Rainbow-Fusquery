@@ -1,0 +1,122 @@
+{
+  "modInfo": {
+    "name": "MvLO - The Rainbow Fusquery",
+    "version": "v2.3.0.1-hotfix-patched",
+    "author": "MatteoMVLO",
+    "description": "Rainbow Fusquery - The ultimate chaotic rainbow fighter!",
+    "gameVersion": "MvLO Latest",
+    "status": "stable",
+    "type": "character_skin"
+  },
+
+  "character": {
+    "id": "rainbow_fusquery",
+    "displayName": "Rainbow Fusquery",
+    "enabled": true,
+    "selectable": true,
+    "unlockable": false,
+    "defaultCharacter": false
+  },
+
+  "graphics": {
+    "spriteSheet": "sprites/rainbow_fusquery.png",
+    "icon": "sprites/icon.png",
+    "palette": "rainbow",
+    "animations": {
+      "idle": true,
+      "run": true,
+      "jump": true,
+      "fall": true,
+      "win": true,
+      "lose": true
+    },
+    "effects": {
+      "rainbowTrail": {
+        "enabled": true,
+        "trailLength": 15,
+        "trailOpacity": 0.8,
+        "colorChangeSpeed": 0.2,
+        "glow": true,
+        "glowIntensity": 1.5
+      },
+      "particleEffects": {
+        "enabled": true,
+        "rainbowParticles": true,
+        "particleCount": 20
+      }
+    }
+  },
+
+  "gameplay": {
+    "stats": {
+      "speed": 1.2,
+      "jumpHeight": 1.1,
+      "weight": 1.0,
+      "acceleration": 1.15
+    },
+    "abilities": {
+      "rainbowDash": true,
+      "colorChange": true,
+      "extraJump": false
+    },
+    "balanced": true,
+    "competitiveReady": true
+  },
+
+  "compatibility": {
+    "onlineMultiplayer": true,
+    "allMaps": true,
+    "powerUps": true,
+    "morePowerUpsMod": true,
+    "otherSkins": true,
+    "minGameVersion": "v2.0.0",
+    "maxGameVersion": "latest"
+  },
+
+  "sounds": {
+    "enabled": true,
+    "customSounds": true,
+    "volume": 1.0,
+    "sounds": {
+      "jump": "sounds/jump.wav",
+      "win": "sounds/win.wav",
+      "lose": "sounds/lose.wav",
+      "select": "sounds/select.wav"
+    }
+  },
+
+  "settings": {
+    "userConfigurable": true,
+    "options": {
+      "rainbowTrail": true,
+      "glowEffect": true,
+      "customSounds": true,
+      "highQuality": true
+    }
+  },
+
+  "installation": {
+    "modLoader": true,
+    "manualInstall": true,
+    "path": "mods/RainbowFusquery/",
+    "requiredFiles": [
+      "config.json",
+      "sprites/rainbow_fusquery.png",
+      "sprites/icon.png"
+    ]
+  },
+
+  "credits": {
+    "creator": "MatteoMVLO",
+    "itchio": "https://matteomvlo.itch.io",
+    "github": "https://github.com/MatteoMVLO/MvLO-The-Rainbow-Fusquery",
+    "specialThanks": "MvLO Community"
+  },
+
+  "changelog": {
+    "v2.3.0.1": "Hotfix Parched - Fixed all bugs from v2.3.0",
+    "v2.3.0": "Added Rainbow Luigi and improved trail",
+    "v2.2.0.1": "Initial rainbow effects",
+    "v1.0": "First release"
+  }
+}
