@@ -1,0 +1,43 @@
+using System;
+using UnityEngine;
+
+// MvLO - The Rainbow Fusquery
+// Version: v2.3.0.1 Hotfix Parched
+// Author: MatteoMVLO
+
+namespace MatteoMVLO.Mods
+{
+    public class RainbowFusquery : MonoBehaviour
+    {
+        // INFO DEL MOD
+        public string modName = "Rainbow Fusquery";
+        public string version = "v2.3.0.1-hotfix-patched";
+        public string author = "MatteoMVLO";
+        
+        // CONFIGURACION RAINBOW
+        private float rainbowSpeed = 0.2f;
+        private float hue = 0f;
+        private SpriteRenderer spriteRenderer;
+        private TrailRenderer rainbowTrail;
+        private bool isEnabled = true;
+
+        // EFECTO RAINBOW
+        void Start()
+        {
+            Debug.Log("Rainbow Fusquery v2.3.0.1 Loaded! By MatteoMVLO");
+            
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            if (spriteRenderer == null)
+            {
+                spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
+            }
+
+            // Crear el trail rainbow
+            SetupRainbowTrail();
+        }
+
+        void SetupRainbowTrail()
+        {
+            rainbowTrail = gameObject.AddComponent<TrailRenderer>();
+            rainbowTrail.time = 0.5f;
+            rainbowTrail.startWidth = 0.5
