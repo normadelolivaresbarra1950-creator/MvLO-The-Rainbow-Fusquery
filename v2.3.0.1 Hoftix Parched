@@ -1,0 +1,55 @@
+# MvLO - The Rainbow Fusquery
+## Version v2.3.0.1 Hotfix Parched - PATCHED
+
+### RELEASE INFO
+Version: v2.3.0.1
+Type: Hotfix Patched
+Date: 2026
+Author: MatteoMVLO
+Status: Stable
+
+### WHAT IS THIS?
+This is the official hotfix patched version that fixes all bugs from v2.3.0
+Rainbow Fusquery mod for Mario vs Luigi Online (MvLO)
+
+### PATCH NOTES
+
+[ FIXED ]
+- Fixed crash on character select
+- Fixed rainbow trail effect not showing for P2/P3/P4
+- Fixed blue screen palette bug
+- Fixed online desync
+- Fixed sprite missing on some resolutions
+- Fixed download error from Mod Loader
+
+[ ADDED ]
+- Added Rainbow Luigi variant
+- Added more smooth rainbow trail
+- Added custom win animation
+- Added support for all maps
+- Added Powers Ups compatibility
+
+[ IMPROVED ]
+- Improved performance
+- Improved colors
+- Improved online stability
+- Better optimization
+
+### INSTALLATION
+1. Download from GitHub Releases
+2. Install via MvLO Mod Loader
+3. Select Rainbow Fusquery in character select
+4. Enjoy!
+
+### CREDITS
+Created by: MatteoMVLO
+Special thanks to: MvLO Community
+
+### LINKS
+itch.io: https://MatteoMVLO.itch.io
+Discord: MvLO Discord Server
+
+### KNOWN BUGS
+- None. Report any bug!
+
+END OF PATCH - V2.3.0.1 HOTFIX PATCHED
